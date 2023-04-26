@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.articoloDesktop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+    background-color: #FCF7E3;
+}
+
+.img-container {
+    width: 50%;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+    flex-wrap:wrap-reverse;
+}
+
+.content {
+    width: 50%;
+    
+}
